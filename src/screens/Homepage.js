@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-import Schedule from '../components/Schedule'
+// import Schedule from '../components/Schedule'
 import Test from '../components/Test'
 
 

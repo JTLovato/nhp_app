@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from 'react';
-import {Link, useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 
 import PlayerCard from './PlayerCard'
 import Team from './Team';
