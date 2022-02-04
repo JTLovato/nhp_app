@@ -1,74 +1,36 @@
-# Getting Started with Create React App
+# NHL Search App
+
+## What It Do
+
+Working with React to create a simple NHL App that draws from the NHL's publicly available API to bring up players, a player's stats, team standings, and team stats.
+
+I really wanted to work more in React, and I've found the best way to learn for myself is to apply my hobbies and passions to it, in this case: Hockey. So I made a simple, easy-to-use and easy-to-view stat finder.
+
+I really wanted to be able to see how teams are doing at a glance, so I made a team stat section, that shows how a team is doing relative to the other 31 NHL teams, using easy to understand color coding, so the user can see at a glance what needs improvement.
+
+With this project, I was able to learn more about React and all the things it can do, mostly getting data from an API and the passing down that data as props in React.
+
+## Features
+
+* Search Teams
+* Roster View
+* See Standings By
+    * Division
+    * Conference
+    * League
+* Team Stats
+ 
+## Features I Want To Add
+
+* Active Rosters List
+* Game Day Previews, Scheduling, And Scores
+* Heat maps by player, by game
+* Player Search
 
 
-## Available Scripts
+# Thanks For Looking!
+:bowtie:
 
-What was your motivation?
-Why did you build this project?
-What problem does it solve?
-What did you learn?
-What makes your project stand out?
-If your project has a lot of features, consider adding a "Features" section and listing them here.
 
-### `npm start`
+## Every Day Is A Learning Day
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
