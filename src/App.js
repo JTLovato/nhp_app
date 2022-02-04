@@ -27,7 +27,7 @@ function App() {
       }}>
         <nav>
           <Link to="/">
-            <img src={"../img/bostons-team.png"} className="brand" alt=""/>
+            <img src={"../img/main.png"} className="brand" alt=""/>
           </Link>
           <div className="colorHold">
             <span></span>

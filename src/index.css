@@ -152,11 +152,11 @@ nav {
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
-  background-color: #1f1f1f;
+  background-color: #181818;
 }
 
 .brand {
-  margin: 3px;
+  margin: 8px;
 }
 
 .colorHold {
@@ -169,14 +169,10 @@ nav {
 }
 
 .colorHold span {
-  background-color: #FFB81C;
+  background-color: #fafafa;
   height: 30px;
   width: 85px;
   margin: 0 10px;
-}
-
-.colorHold span:nth-child(2) {
-  background-color: #ffffff;
 }
 
 
@@ -204,22 +200,22 @@ nav {
 .searchButton {
   height: 300px;
   width: 500px;
-  background-color: #e9e9e9;
   margin: 20px;
   border-radius: 20px;
   box-shadow: inset 20px 20px 60px #bebebe,
-              inset -20px -20px 60px #ffffff;
+    inset -20px -20px 60px #ffffff;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   color: #000000;
+  backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
 }
 
 .searchButton img {
   height: 200px;
   margin-top: 15px;
-  border-radius: 0% 0% 50% 50%;
   transition: all ease-in-out .1s
 }
 
@@ -1015,7 +1011,7 @@ tr:hover .standings-link {
 
 footer {
   width: 100%;
-  background-color: #1f1f1f;
+  background-color: #131313;
   min-height: 30px;
   text-align: center;
   padding-top: 10px;
@@ -1040,12 +1036,75 @@ footer a {
 }
 
 .colorHoldFooter span {
-  background-color: #FFB81C;
+  background-color: #ffffff;
   height: 30px;
   width: 85px;
   margin: 0 10px;
 }
 
-.colorHoldFooter span:nth-child(2) {
-  background-color: #ffffff;
+
+@media (max-width: 700px) {
+  .colorHold,
+  .colorHoldFooter {
+    display: none;
+  }
+
+  .players-container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .front-image {
+    height: 100px;
+    left: 20px
+  }
+  .team-info-small {
+    right: 0px;
+  }
+
+  .team-info-small h1 {
+    font-size: 350%;
+    margin-top: -80px;
+  }
+
+  .team-info-container {
+    height: 200px;
+  }
+
+  .tiny-team-info {
+    flex-wrap: wrap;
+  }
+
+  .player-page-container {
+    width: 100%;
+    margin: 15px 0px;
+  }
+
+  .name-information {
+    flex-wrap: wrap;
+  }
+
+  .name-information-lower {
+    flex-wrap: wrap;
+    margin: 0 5px;
+  }
+  .name-info-container h1:nth-child(even) {
+    display: none;
+  }
+  .name-info-container h1:nth-child(odd) {
+    margin: 0 5px;
+}
+
+.tables {
+    width: 100%;
+  }
+
+  td, th {
+    min-width: 20px;
+    font-size: 70%;
+  }
+
+  .title {
+    font-size: 80%;
+  }
 }

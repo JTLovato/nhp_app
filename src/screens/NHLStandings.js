@@ -43,7 +43,7 @@ function NHLStandings() {
     return (
         <div className="teams-container">
             <div className="standings-button-container">
-                <div class="button" onClick={showDiv}>
+                <div className="button" onClick={showDiv}>
                     <svg>
                         <rect x="0" y="0" fill="none" width="100%" height="100%"/>
                     </svg>
