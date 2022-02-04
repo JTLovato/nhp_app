@@ -1,4 +1,4 @@
-# NHL Search App
+# NHL GO App
 
 ## What It Do
 
