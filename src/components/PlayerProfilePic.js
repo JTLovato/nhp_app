@@ -3,7 +3,9 @@ import player_not_found from '../components/player-not-found.jpg'
 function PlayerProfilePic(props) {
 
     function getPics() {
-        let pic = `http://nhl.bamcontent.com/images/headshots/current/168x168/${props.id}.jpg`;
+        let pic = `
+        https://tsnimages.tsn.ca/ImageProvider/PlayerHeadshot?seoId=${props.firstName}-${props.lastName}
+        `;
         return pic
     }
     return (

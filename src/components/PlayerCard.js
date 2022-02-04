@@ -6,16 +6,20 @@ function PlayerCard(props) {
 
     let firstName = props.name.split(' ').slice(0, -1).join(' ');
     let lastName = props.name.split(' ').slice(-1).join(' ');
-
+    let name=props.name
     return (
         <Link 
-            to={`/player/${props.id}`} 
+            to={`/player/${props.id}/${props.name}`} 
             className="player-container"
         >
             <div className="player-border">
                 <div className="player-border-end">
             <div className="player-image">
-                <PlayerProfilePic teamId={props.teamId} id={props.id}/>
+                <PlayerProfilePic 
+                    teamId={props.teamId} 
+                    firstName={firstName} 
+                    lastName={lastName} 
+                    id={props.id}/>
             </div>
             <div className="player-info">
                 <h4>{firstName}</h4>

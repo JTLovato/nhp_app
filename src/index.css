@@ -654,6 +654,7 @@ tr:hover .standings-link {
   border-radius: 50%;
   z-index: 2;
   margin-bottom: -84px;
+  height: 300px;
 }
 
 .name-container {

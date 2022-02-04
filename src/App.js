@@ -43,7 +43,7 @@ function App() {
             <Route path="/teams" element={<Teams />} exact></Route> 
             <Route path="/standings" element={<NHLStandings />} exact/>
             <Route exact path='/:id' element={<EachTeam/>} />
-            <Route exact path="/player/:id" element={<Player />} />
+            <Route exact path="/player/:id/:name" element={<Player />} />
             <Route exact path="/game/:id" element={<GameDay />} />
 
             <Route component={NoPageMatch} />

@@ -1,17 +1,32 @@
+
 import PlayerInfoBasics from "./PlayerInfoBasics"
 import {useParams} from 'react-router-dom'
-import PlayerProfilePic from "./PlayerProfilePic";
+import player_not_found from '../components/player-not-found.jpg'
 
 function Player() {
-    
-    const { id } = useParams();
 
+    const {name, id } = useParams();
+    console.log(name)
+
+    let firstName = name.split(' ').slice(0, -1).join(' ');
+    let lastName = name.split(' ').slice(-1).join(' ');
+
+    function getPics() {
+        let pic = `
+        https://tsnimages.tsn.ca/ImageProvider/PlayerHeadshot?seoId=${firstName}-${lastName}
+        `;
+        return pic
+    }
     // TEST API
-    // console.log(id)
-    
+
     return (
         <div className="player-page-container">
-            <PlayerProfilePic id={id}/>
+            <img 
+                className="player-pic" 
+                src={getPics()} 
+                onError={(e)=>{e.target.src=`${player_not_found}`}} 
+                alt="Player Profile"
+            />
             <PlayerInfoBasics id={id}/>
         </div>
     )
