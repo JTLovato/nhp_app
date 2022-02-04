@@ -32,5 +32,6 @@ With this project, I was able to learn more about React and all the things it ca
 :bowtie:
 
 
-## Every Day Is A Learning Day
+## "Passion Is Enery"
+### - Oprah Winfrey
 
