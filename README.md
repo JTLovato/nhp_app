@@ -32,6 +32,6 @@ With this project, I was able to learn more about React and all the things it ca
 :bowtie:
 
 
-## "Passion Is Enery"
+## "Passion Is Energy"
 ### - Oprah Winfrey
 
